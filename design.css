@@ -12,9 +12,6 @@ body{
   overflow-y: hidden;
 }
 
-.carousel{
-  height:100vh;
-}
 
 .fullwidth{
   margin-top: -20px;
@@ -69,7 +66,7 @@ transition: .2s ease-out;
 
 .dropbtn{
   cursor: pointer;
-   text-shadow:   0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+   text-shadow:   0 0 50px #A5F1FF, 0 0 10px #A5F1FF,
                   0 0 20px #A5F1FF, 0 0 20px #A5F1FF,
                   0 0 30px #A5F1FF;
 }
@@ -136,7 +133,8 @@ border-bottom: 3px solid;
   text-decoration: underline;
   color: #fff;
   max-height: 100vh;
-  overflow:hidden;
+  overflow: hidden;
+
 }
 
 .bigtext{
