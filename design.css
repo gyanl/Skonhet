@@ -12,12 +12,24 @@ body{
   overflow-y: hidden;
 }
 
+.t-img{
+margin-left: 20px;
+float: left;
+}
+
+.t-img img{
+margin-left: 10px;
+}
 
 .fullwidth{
   margin-top: -20px;
   z-index: -1;
   width: 100%;
   height: auto;
+}
+
+.towerl{
+  
 }
 
 .boxed{
