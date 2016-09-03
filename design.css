@@ -12,8 +12,14 @@ body{
   overflow-y: hidden;
 }
 
-.carousel{
-  height:100vh;
+.t-img{
+margin-left: 20px;
+float: left;
+}
+
+.t-img img{
+margin-left: 10px;
+
 }
 
 .fullwidth{
@@ -22,6 +28,41 @@ body{
   width: 100%;
   height: auto;
 }
+
+.textbox h2{
+text-align: center;
+text-decoration: underline;
+position: relative;
+}
+
+.tower p{
+  display: inline-block;
+  line-height: 1.4em;
+  text-align: left;
+  float: left;
+  height: 500px;
+  width: 250px;
+}
+
+.tower img{
+display: inline-block;
+text-align: left;
+}
+
+.tower-right p{
+  display: inline-block;
+  line-height: 1.4em;
+  text-align: left;
+  float: right;
+  height: 500px;
+  width: 250px;
+}
+
+.tower-right img{
+display: inline-block;
+text-align: right;
+}
+
 
 .boxed{
   border: 2px solid black;
@@ -69,6 +110,9 @@ transition: .2s ease-out;
 
 .dropbtn{
   cursor: pointer;
+   text-shadow:   0 0 50px #A5F1FF, 0 0 10px #A5F1FF,
+                  0 0 20px #A5F1FF, 0 0 20px #A5F1FF,
+                  0 0 30px #A5F1FF;
 }
 
 .dropdown{
@@ -133,13 +177,15 @@ border-bottom: 3px solid;
   text-decoration: underline;
   color: #fff;
   max-height: 100vh;
-  overflow:hidden;
+  overflow: hidden;
+
 }
 
 .bigtext{
   font-size: 60px;
   margin-bottom: -25px;
-  color: #fffdf6
+  color: #fffdf6;
+
 }
 
 .centerthis{
@@ -181,10 +227,6 @@ footer{
     left: 0;
   }
 
-.carousel{
-
-}
-
   .item img{
     width: 100%;
     height: auto;
@@ -209,4 +251,20 @@ footer{
   padding-right: 20px !important;
   width: auto;
 }
+
+
+.tower img{
+  margin: auto !important;
+  display: block;
+}
+
+.tower-right img{
+  margin: auto !important;
+  display: block;
+}
+
+.tower p{
+  text-align: left;
+}
+
 }
