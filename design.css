@@ -19,6 +19,7 @@ float: left;
 
 .t-img img{
 margin-left: 10px;
+
 }
 
 .fullwidth{
@@ -28,9 +29,40 @@ margin-left: 10px;
   height: auto;
 }
 
-.towerl{
-  
+.textbox h2{
+text-align: center;
+text-decoration: underline;
+position: relative;
 }
+
+.tower p{
+  display: inline-block;
+  line-height: 1.4em;
+  text-align: left;
+  float: left;
+  height: 500px;
+  width: 250px;
+}
+
+.tower img{
+display: inline-block;
+text-align: left;
+}
+
+.tower-right p{
+  display: inline-block;
+  line-height: 1.4em;
+  text-align: left;
+  float: right;
+  height: 500px;
+  width: 250px;
+}
+
+.tower-right img{
+display: inline-block;
+text-align: right;
+}
+
 
 .boxed{
   border: 2px solid black;
@@ -219,4 +251,20 @@ footer{
   padding-right: 20px !important;
   width: auto;
 }
+
+
+.tower img{
+  margin: auto !important;
+  display: block;
+}
+
+.tower-right img{
+  margin: auto !important;
+  display: block;
+}
+
+.tower p{
+  text-align: left;
+}
+
 }
